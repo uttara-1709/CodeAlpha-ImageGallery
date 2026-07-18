@@ -21,11 +21,11 @@ A responsive and interactive Image Gallery developed using **HTML, CSS, and Java
 ## Project Structure
 
 ```
-CodeAlpha-ImageGallery/
 │── index.html
 │── style.css
 │── script.js
 │── images/
+│── README.md
 ```
 
 ## Live Demo
