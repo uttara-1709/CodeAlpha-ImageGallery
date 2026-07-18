@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery | Uttara Patil</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Image Gallery</h1>
+
+    <p>Responsive Image Gallery with Lightbox</p>
+
+</header>
+
+<section class="controls">
+
+    <input
+    type="text"
+    id="searchBox"
+    placeholder="Search images...">
+
+    <div class="buttons">
+
+        <button class="active">All</button>
+        <button>Nature</button>
+        <button>Sunset</button>
+        <button>Moon</button>
+
+    </div>
+
+</section>
+
+<section class="gallery">
+
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.52 PM.jpeg" alt="Moon" data-category="Moon">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.53 PM.jpeg" alt="Nature" data-category="Nature">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.54 PM.jpeg" alt="Nature" data-category="Nature">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.55 PM (1).jpeg" alt="Sunset" data-category="Sunset">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.55 PM.jpeg" alt="Sunset" data-category="Sunset">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.56 PM (1).jpeg" alt="Sunset" data-category="Sunset">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.56 PM.jpeg" alt="Sunset" data-category="Sunset">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.57 PM (1).jpeg" alt="Nature" data-category="Nature">
+
+<img src="images/WhatsApp Image 2026-07-18 at 5.53.57 PM.jpeg" alt="Moon" data-category="Moon">
+
+</section>
+
+
+<div class="lightbox" id="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img id="lightbox-img">
+
+    <button class="next">&#10095;</button>
+
+</div>
+
+<footer>
+
+    <p>© 2026 Uttara Patil | CodeAlpha Frontend Development Internship</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
